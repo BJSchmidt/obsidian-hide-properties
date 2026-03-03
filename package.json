@@ -1,6 +1,6 @@
 {
   "name": "hide-properties",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Obsidian plugin to hide specified frontmatter properties behind a collapsible disclosure row.",
   "main": "main.js",
   "scripts": {
