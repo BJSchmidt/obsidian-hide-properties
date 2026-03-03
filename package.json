@@ -1,0 +1,19 @@
+{
+  "name": "hide-properties",
+  "version": "1.0.0",
+  "description": "Obsidian plugin to hide specified frontmatter properties behind a collapsible disclosure row.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "esbuild": "0.17.3",
+    "obsidian": "latest",
+    "typescript": "4.7.4"
+  }
+}

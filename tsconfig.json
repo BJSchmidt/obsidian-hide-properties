@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "module": "ESNext",
+    "target": "ES6",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "lib": ["ES6", "DOM"],
+    "moduleResolution": "node"
+  },
+  "include": ["**/*.ts"]
+}

@@ -1,0 +1,24 @@
+.hide-properties-disclosure {
+    cursor: pointer;
+    padding: 4px 8px;
+    color: var(--text-muted);
+    font-size: var(--font-smaller);
+    user-select: none;
+    border-top: 1px solid var(--background-modifier-border);
+    margin-top: 4px;
+}
+
+/* Stack the textarea below the label/description in the settings tab */
+.hide-properties-setting-stacked {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.hide-properties-setting-stacked .setting-item-control {
+    justify-content: flex-start;
+}
+
+.hide-properties-setting-stacked textarea {
+    width: 100%;
+    font-family: monospace;
+}

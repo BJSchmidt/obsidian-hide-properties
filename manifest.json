@@ -1,0 +1,9 @@
+{
+  "id": "hide-properties",
+  "name": "Hide Properties",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Vault-wide: hide specified frontmatter properties across all notes behind a collapsible disclosure row.",
+  "author": "BJ Schmidt",
+  "isDesktopOnly": false
+}
